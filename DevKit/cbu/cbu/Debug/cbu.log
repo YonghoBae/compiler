@@ -1,0 +1,35 @@
+﻿  cbu2.c
+/cbu2.c(1328,16): warning C4013: 'yylex'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  (소스 파일 '../../cbu2.c'을(를) 컴파일하는 중)
+  
+/cbu2.c(1542,7): warning C4013: 'yyerror'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  (소스 파일 '../../cbu2.c'을(를) 컴파일하는 중)
+  
+/cbu2.y(92,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (소스 파일 '../../cbu2.c'을(를) 컴파일하는 중)
+  
+/cbu2.y(98,5): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (소스 파일 '../../cbu2.c'을(를) 컴파일하는 중)
+  
+/cbu2.y(192,11): warning C4047: '함수': 'Node *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  (소스 파일 '../../cbu2.c'을(를) 컴파일하는 중)
+  
+/cbu2.y(192,11): warning C4024: 'DFSTree': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+  (소스 파일 '../../cbu2.c'을(를) 컴파일하는 중)
+  
+  cbu2lex.c
+/cbu2.l(38,33): warning C4013: 'MakeNode'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  (소스 파일 '../../cbu2lex.c'을(를) 컴파일하는 중)
+  
+/cbu2.l(39,2): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (소스 파일 '../../cbu2lex.c'을(를) 컴파일하는 중)
+  
+/cbu2.l(52,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (소스 파일 '../../cbu2lex.c'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...
+C:\Users\wolyong\Desktop\컴파일러\DevKit\cbu\cbu\cbu2.l(61,1): warning C4716: 'yywrap': 값을 반환해야 합니다.
+C:\Users\wolyong\Desktop\컴파일러\DevKit\cbu\cbu\cbu2.y(113,1): warning C4716: 'yyerror': 값을 반환해야 합니다.
+C:\Users\wolyong\Desktop\컴파일러\DevKit\cbu\cbu\cbu2.y(198,1): warning C4700: 초기화되지 않은 'label1' 지역 변수를 사용했습니다.
+C:\Users\wolyong\Desktop\컴파일러\DevKit\cbu\cbu\cbu2.y(199,1): warning C4700: 초기화되지 않은 'label2' 지역 변수를 사용했습니다.
+  cbu.vcxproj -> C:\Users\wolyong\Desktop\컴파일러\DevKit\cbu\Debug\cbu.exe
